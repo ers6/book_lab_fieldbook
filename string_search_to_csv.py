@@ -1,3 +1,4 @@
+# this file searches for a string in a text file, scrapes the lines surrounding that string, and appends the results to a csv file. Will be used to scrape funding info from Hathi 
 import csv
 import re
 
