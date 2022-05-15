@@ -23,3 +23,8 @@ be captured.
 
 Note that scrapes_funding_data.py is currently scraping the 5 lines before, the line including, and the 20 lines after the string "copyright." If funding
 information is not on the copyright page, it will not be captured. 
+
+
+## Note:
+
+"Funding Gentrification" is the write-up of the experiment. 
