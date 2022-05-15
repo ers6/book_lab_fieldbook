@@ -1,5 +1,4 @@
 # turns a hathitrust metadata json file into a python dictionary so I can iterate thru all collection members
-import requests
 import json
 import os
 
