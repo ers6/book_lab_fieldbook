@@ -60,7 +60,8 @@ def gets_funding_data(infile_name, search_term):
         for item in result:
             result_string = result_string + " " + item
         result_string = re.sub("\\\\", "", result_string)
-        results.append({'volume': infile_name, 'line' : hit, 'text':result_string})
+        htid = infile_name.split("/")[1]
+        results.append({'volume': htid, 'line' : hit, 'text':result_string})
     headers = ['volume','line', 'text']
     rows = results
     return rows
